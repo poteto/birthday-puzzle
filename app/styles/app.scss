@@ -1,6 +1,78 @@
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Questrial|Old+Standard+TT:400,700,400italic);
+
+body {
+  background: rgba(241, 90, 36, 1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  small {
+    color: rgba(58, 58, 58, 1);
+  }
+}
+
+p {
+  font-family: 'Old Standard TT', serif;
+}
+
+input, label {
+  font-family: 'Questrial', sans-serif;
+}
+
+blockquote {
+  font-family: 'Old Standard TT', serif;
+  font-style: italic;
+  font-size: 48px;
+}
 
 .full-screen-map {
-  height: 100%;
+  margin-top: 20px;
+  height: 50%;
   width: 100%;
+}
+
+.puzzle-index {
+  margin-top: 10%;
+}
+
+.puzzle-answer {
+  header h1 {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 0.5em 2em;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+.puzzle-index-hint {
+  margin-top: 40px;
+  p {
+    color: white;
+  }
+}
+
+.form-control {
+  background: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  border-width: 3px;
+  color: white;
+  &:focus {
+    border-color: rgba(255, 255, 255, 1);
+    border-color: white;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  &:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.input-lg {
+  font-size: 36px;
+  height: 2em;
 }
