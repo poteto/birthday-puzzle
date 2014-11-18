@@ -4,7 +4,6 @@ export default Ember.Route.extend({
   afterModel: function(model){
     if ( !model.get('answeredAt') ) {
       this.transitionTo('puzzle.index');
-      console.log('Nice try')
-    };
+    }
   }
 });
