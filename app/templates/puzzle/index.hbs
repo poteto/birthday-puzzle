@@ -1,0 +1,27 @@
+<div class="puzzle-index">
+  <header>
+    <h1>Dear Eamon,
+      <small>
+        Happy birthday!
+      </small>
+    </h1>
+  </header>
+
+  <section class="puzzle-index-hint">
+    <p class="lead">I made a little puzzle for you to solve, so you can find out where we're having your birthday dinner tonight @ 7pm :)</p>
+    <blockquote>"{{body}}"</blockquote>
+  </section>
+
+  <form role="form" {{action "checkAnswer" on="submit"}}>
+    <div class="form-group">
+      <label for="your-answer">Your answer (press enter to check your answer!)</label>
+      {{input id="your-answer" value=attempt action="checkAnswer" class="form-control input-lg"}}
+    </div>
+  </form>
+
+  <section>
+    {{#if prompt}}
+      <pre>{{prompt}}</pre>
+    {{/if}}
+  </section>
+</div>
