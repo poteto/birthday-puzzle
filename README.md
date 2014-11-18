@@ -1,4 +1,4 @@
-# Birthday-puzzle
+# Birthday-puzzle!
 
 [ ![Codeship Status for poteto/birthday-puzzle](https://codeship.com/projects/96383ba0-50e4-0132-786d-32ca8cb21866/status)](https://codeship.com/projects/48192)
 

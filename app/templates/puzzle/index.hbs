@@ -1,0 +1,20 @@
+<header>
+  <h1>Dear Eamon,</h1>
+</header>
+
+<section>
+  <blockquote>{{body}}</blockquote>
+</section>
+
+<form role="form" {{action "checkAnswer" on="submit"}}>
+  <div class="form-group">
+    <label for="your-answer">Your answer</label>
+    {{input id="your-answer" value=attempt action="checkAnswer" class="form-control input-lg"}}
+  </div>
+</form>
+
+<section>
+  {{#if prompt}}
+    <pre>{{prompt}}</pre>
+  {{/if}}
+</section>
