@@ -4,7 +4,7 @@ var attr = DS.attr;
 var Puzzle = DS.Model.extend({
   body:         attr('string'),
   answer:       attr('string'),
-  answeredAt:  attr('date')
+  answeredAt:   attr('date')
 });
 
 Puzzle.reopenClass({
