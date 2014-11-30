@@ -1,9 +1,8 @@
-# Birthday-puzzle!
+# Birthday-puzzle
 
 [ ![Codeship Status for poteto/birthday-puzzle](https://codeship.com/projects/96383ba0-50e4-0132-786d-32ca8cb21866/status)](https://codeship.com/projects/48192)
 
 This README outlines the details of collaborating on this Ember application.
-
 A short introduction of this app could easily go here.
 
 ## Prerequisites
@@ -23,7 +22,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember server`
-* Visit your app at http://localhost:4200.
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
@@ -45,8 +44,8 @@ Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
-* ember: http://emberjs.com/
-* ember-cli: http://www.ember-cli.com/
+* [ember.js](http://emberjs.com/)
+* [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
